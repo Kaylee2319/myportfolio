@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+.NavBar{
+  width: 100vw;
+}
+
+ .NavBar_pic{
+   width: 100vw;
+   height: 80px;
+   background-image: url('../images/colors4.jpg');
+   background-position: center;
+   background-size: 95%;
+ }
+
+  .NavBar_links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 5px;
+    color:black;
+  }
+
+  .NavBar_Link{
+    color:black;
+  }
+
+  .NavBar_Link1{
+    color: #DA76DE;
+  }
+
+  @media only screen and (min-device-width: 800px)  {
+    .NavBar_pic{
+      height: 100px;
+      background-size: 50%;
+    }
+    .NavBar_links{
+      font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+  .NavBar_pic{
+    height: 140px;
+    background-size: 50%;
+  }
+  .NavBar_links{
+    font-size: 20px;
+  }
+}

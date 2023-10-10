@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.Photoshop{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    font-family: 'Oleo Script', cursive;
+    font-size: 32px;
+    font-weight: 400;
+}
+.Photoshop_title{
+    color: #DA76DE;
+    text-decoration: underline;
+    margin: 2rem;
+}
+.Photoshop_awardrow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Photoshop_achievement{
+    width: 126px;
+    height: 163px;
+    background: url(../images/colorgif1.gif);
+    background-size: cover;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: honeydew;
+}
+.Photoshop_achievementtitle{
+    font-size: 15px;
+    margin-left: .15rem;
+    margin-right: .15rem;
+}
+.Photoshop_achievementimage1{
+    height: 6rem;
+    width: 10rem;
+    margin-left: 1rem;
+}
+.Photoshop_achievementimage2{
+    height: 7rem;
+    width: 10rem;
+    margin-top: -1rem;
+    margin-left: .5rem;
+}
+.Photoshop_achievementimage3{
+    height: 7rem;
+    width: 8rem;
+}
+.Photoshop_achievementimage4{
+    height: 5rem;
+    width: 6rem;
+
+}
+.Photoshop_awardrow2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+@media only screen and (min-device-width: 800px) {
+
+    .Photoshop{
+        height: 100vh;
+        width: 100vw;
+        overflow-y: scroll;
+        font-family: 'Oleo Script', cursive;
+        font-size: 38px;
+        font-weight: 400;
+        margin-bottom: -8rem;
+    }
+    .Photoshop_title{
+        color: #DA76DE;
+        text-decoration: underline;
+        margin: 2rem;
+    }
+    .Photoshop_body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -4rem;
+    }
+    .Photoshop_awardrow1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Photoshop_achievement{
+        width: 166px;
+        height: 203px;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .Photoshop_achievementtitle{
+        font-size: 15px;
+        margin-left: .15rem;
+        margin-right: .15rem;
+    }
+    .Photoshop_achievementimage1{
+        height: 6rem;
+        width: 10rem;
+        margin-left: 1rem;
+    }
+    .Photoshop_achievementimage2{
+        height: 7rem;
+        width: 10rem;
+        margin-top: -1rem;
+        margin-left: .5rem;
+    }
+    .Photoshop_achievementimage3{
+        height: 7rem;
+        width: 8rem;
+    }
+    .Photoshop_achievementimage4{
+        height: 5rem;
+        width: 6rem;
+    
+    }
+    .Photoshop_awardrow2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 8rem;
+        
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+
+    .Photoshop{
+        height: 100vh;
+        width: 100vw;
+        overflow-y: scroll;
+        font-family: 'Oleo Script', cursive;
+        font-size: 38px;
+        font-weight: 400;
+        margin-bottom: -8rem;
+    }
+    .Photoshop_title{
+        margin-top: 2rem;
+        margin-left: 15rem;
+    }
+    .Photoshop_body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -4rem;
+    }
+    .Photoshop_awardrow1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Photoshop_achievement{
+        width: 266px;
+        height: 303px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Photoshop_achievementtitle{
+        font-size: 25px;
+        margin-left: .15rem;
+        margin-right: .15rem;
+    }
+    .Photoshop_achievementimage1{
+        height: 10rem;
+        width: auto;
+        margin-left: 1rem;
+    }
+    .Photoshop_achievementimage2{
+        height: 12rem;
+        width: auto;
+        margin-top: -1rem;
+        margin-left: .5rem;
+    }
+    .Photoshop_achievementimage3{
+        height: 12rem;
+        width: auto;
+    }
+    .Photoshop_achievementimage4{
+        height: 10rem;
+        width: auto;
+    
+    }
+    .Photoshop_awardrow2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 8rem;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1824px) {
+
+
+}
+

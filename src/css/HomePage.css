@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.homePage{
+    height: 90vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Oleo Script', cursive;
+}
+.homePage_Body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: -6rem;
+}
+.homePage_Logobody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homePage_Logo{
+    height: 150px;
+    width: 160px;
+}
+.homePage_FirstName{
+    margin-left: 15px;
+    color: #E7BAE9;
+    font-weight: 400;
+}
+.homePage_LastName{
+    margin-left: 15px;
+    font-weight: 400;
+}
+.homePage_FullName{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.homePage_TitleName{
+    margin-left: 15px;
+    color: #da7ddf65;
+    font-weight: 400;
+}
+.homePage_TitleNameOne{
+    margin-left: 15px;
+    font-weight: 400;
+    color: #0000005d;
+}
+.homePage_FullTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -4.75rem;
+}
+.homePage_Veteran{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: #0000007e;
+    font-weight: 400;
+    margin-top: -2.5rem;
+    margin-left: 15px;
+
+}
+@media only screen and (min-device-width: 800px)  {
+    .homePage_Logo{
+        height: 200px;
+        width: 210px;
+    }
+    .homePage_FullName{
+        font-size: 32px;
+    }
+    .homePage_FullTitle{
+        font-size: 34px;
+        margin-top: -5.75rem;
+    }
+    .homePage_Veteran{
+        font-size: 20px;
+        margin-top: -2.95rem;
+    }
+}

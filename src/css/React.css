@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.Reactapp{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    font-family: 'Oleo Script', cursive;
+    font-size: 32px;
+}
+.Reactapp_Title{
+    color: #DA76DE;
+    text-decoration: underline;
+    margin: 2rem;
+}
+.Reactapp_body{
+    display: flex;
+    justify-content: center;
+}
+.Reactapp_videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+.Reactapp_videoRow1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Reactapp_back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: url(../images/pink.png);
+    border-radius: 12px;
+    width: 159px;
+    height: 266px;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+.Reactapp_outpost{
+    width: 139px;
+    height: 246px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Reactapp_outpostvideo{
+    width: 139px;
+    height: 246px;
+    border-radius: 12px;
+}
+.Reactapp_outpostlinks{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.Reactapp_lighthouse{
+    width: 44px;
+    height: 50px;
+    margin-top: -.25rem;
+}
+.Reactapp_videoRow2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/pink.png);
+    border-radius: 12px;
+    width: 312px;
+    height: 169px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.Reactapp_pokecardex{
+    margin-top: 3.5rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Reactapp_pokecardexvideo{
+    width: 292px;
+    height: 149px;
+    border-radius: 12px;
+}
+.Reactapp_Pokelinks{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.Reactapp_pokeball{
+    width: 80px;
+    height: 70px;
+    margin-top: -.60rem;
+    margin-right: -1.5rem;
+}
+
+.Reactapp_porfolio{
+    width: 139px;
+    height: 246px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Reactapp_portfoliovideo{
+    width: 139px;
+    height: 246px;
+    border-radius: 12px;
+}
+.Reactapp_logo{
+    width: 40px;
+    height: 40px;
+
+}
+.Reactapp_slides{
+    width: 45px;
+    height: 35px;
+}
+.Reactapp_githubpink{
+    width: 48px;
+    height: 38px;
+}
+@media only screen and (min-device-width: 800px) {
+    .Reactapp_Title{
+        color: #DA76DE;
+        text-decoration: underline;
+        margin-top: 2rem;
+        margin-left: 12rem;
+    }
+    .Reactapp_back{
+        width: 189px;
+        height: 296px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Reactapp_outpost{
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Reactapp_outpostvideo{
+        width: 159px;
+        height: auto;
+        margin-top: -1rem;
+        border-radius: 12px;
+    }
+    .Reactapp_outpostlinks{
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .Reactapp_lighthouse{
+        width: 54px;
+        height: 60px;
+        margin-top: -.25rem;
+    }
+    .Reactapp_videoRow2{
+        width: 342px;
+        height: 199px;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .Reactapp_pokecardex{
+        margin-top: 3.5rem;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Reactapp_pokecardexvideo{
+        width: 312px;
+        height: auto;
+        border-radius: 12px;
+    }
+ 
+    .Reactapp_pokeball{
+        width: 90px;
+        height: 80px;
+        margin-top: -.60rem;
+        margin-right: -1.5rem;
+    }
+    .Reactapp_porfolio{
+        width: 139px;
+        height: 246px;
+        border-radius: 12px;
+    }
+    .Reactapp_portfoliovideo{
+        width: 159px;
+        height: auto;
+        margin-top: -1rem;
+        border-radius: 12px;
+    }
+    .Reactapp_logo{
+        width: 50px;
+        height: 45px;
+    
+    }
+    .Reactapp_slides{
+        width: 55px;
+        height: 45px;
+    }
+    .Reactapp_githubpink{
+        width: 58px;
+        height: 45px;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+
+    .Reactapp_Title{
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+    .Reactapp_videos{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    .Reactapp_back{
+        width: 189px;
+        height: 296px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Reactapp_outpost{
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Reactapp_outpostvideo{
+        width: 159px;
+        height: auto;
+        margin-top: -1rem;
+        border-radius: 12px;
+    }
+    .Reactapp_outpostlinks{
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .Reactapp_lighthouse{
+        width: 54px;
+        height: 60px;
+        margin-top: -.25rem;
+    }
+    .Reactapp_videoRow2{
+        width: 342px;
+        height: 199px;
+        margin-bottom: 1rem;
+        margin-left: 1rem
+    }
+    
+    .Reactapp_pokecardex{
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Reactapp_pokecardexvideo{
+        width: 312px;
+        height: auto;
+        border-radius: 12px;
+        margin-top: 1rem;
+    }
+ 
+    .Reactapp_pokeball{
+        width: 90px;
+        height: 80px;
+        margin-top: -.60rem;
+        margin-right: -1.5rem;
+    }
+    .Reactapp_porfolio{
+        width: 139px;
+        height: 246px;
+        border-radius: 12px;
+    }
+    .Reactapp_portfoliovideo{
+        width: 159px;
+        height: auto;
+        margin-top: -1rem;
+        border-radius: 12px;
+    }
+    .Reactapp_logo{
+        width: 50px;
+        height: 45px;
+    
+    }
+    .Reactapp_slides{
+        width: 55px;
+        height: 45px;
+    }
+    .Reactapp_githubpink{
+        width: 58px;
+        height: 45px;
+    }
+}
+
+
+@media only screen and (min-width: 1824px) {
+
+    .Reactapp_Title{
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+    .Reactapp_videos{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    .Reactapp_back{
+        width: 289px;
+        height: 420px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Reactapp_outpost{
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Reactapp_outpostvideo{
+        width: 219px;
+        height: auto;
+        margin-top: -4.25rem;
+        border-radius: 12px;
+    }
+    .Reactapp_outpostlinks{
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .Reactapp_lighthouse{
+        width: 54px;
+        height: 60px;
+        margin-top: -.25rem;
+    }
+    .Reactapp_videoRow2{
+        width: 442px;
+        height: 279px;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 9rem;
+    }
+    
+    .Reactapp_pokecardex{
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Reactapp_pokecardexvideo{
+        width: 412px;
+        height: auto;
+        border-radius: 12px;
+        margin-top: 1rem;
+    }
+ 
+    .Reactapp_pokeball{
+        width: 90px;
+        height: 80px;
+        margin-top: -.60rem;
+        margin-right: -1.5rem;
+    }
+    .Reactapp_porfolio{
+        width: 239px;
+        height: 346px;
+        border-radius: 12px;
+    }
+    .Reactapp_portfoliovideo{
+        width: 219px;
+        height: auto;
+        margin-top: -1rem;
+        border-radius: 12px;
+    }
+    .Reactapp_logo{
+        width: 50px;
+        height: 45px;
+    
+    }
+    .Reactapp_slides{
+        width: 55px;
+        height: 45px;
+    }
+    .Reactapp_githubpink{
+        width: 58px;
+        height: 45px;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    .Reactapp_Title{
+        margin-top: 3rem;
+        margin-left: 22rem;
+        font-size: 35px;
+    }
+}

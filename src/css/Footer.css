@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.Footer{
+    width: 100vw;
+    height: 75px;
+    background: #EFCFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+}
+.Footer_Image{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+@media only screen and (min-device-width: 800px)  {
+.Footer{
+     height: 80px;
+     font-size: 19px;
+}
+    
+.Footer_Image{
+    height: 4rem;
+    width: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+.Footer{
+    height: 85px;
+    font-size: 20px;
+}
+.Footer_Image{
+    height: 4rem;
+    width: 4.5rem;
+}
+}
