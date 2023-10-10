@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../css/NavBar.css';
 
 const NavBar = () => {
- 
+
 
   return (
     <>
@@ -21,6 +21,9 @@ const NavBar = () => {
           </Link>
           <Link to="/about" className="NavBar_Link">
           ABOUT ME
+          </Link>
+          <Link to="/login" className="NavBar_Link1">
+          TODO
           </Link>
         </div>
       </div>
